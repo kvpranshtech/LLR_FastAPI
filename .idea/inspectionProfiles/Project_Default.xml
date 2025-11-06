@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="Django" />
+            <item index="1" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="2" class="java.lang.String" itemvalue="asgiref" />
+            <item index="3" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="4" class="java.lang.String" itemvalue="boto3" />
+            <item index="5" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="6" class="java.lang.String" itemvalue="botocore" />
+            <item index="7" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="8" class="java.lang.String" itemvalue="urllib3" />
+            <item index="9" class="java.lang.String" itemvalue="channels" />
+            <item index="10" class="java.lang.String" itemvalue="channels-redis" />
+            <item index="11" class="java.lang.String" itemvalue="daphne" />
+            <item index="12" class="java.lang.String" itemvalue="django-environ" />
+            <item index="13" class="java.lang.String" itemvalue="Flask-SQLAlchemy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.fields.related.OneToOneField.username" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
