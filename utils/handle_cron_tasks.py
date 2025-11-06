@@ -603,8 +603,8 @@ def ssl_expiry_alerts():
 
 def send_telegram_message(message: str):
     """Send formatted message to Telegram bot chat."""
-    bot_token = '8259031566:AAEn7Tp1qqvqpa2Hg_KfFgIPTUPD589Zzpo'
-    chat_id = '-1002543674852'
+    bot_token = ''
+    chat_id = ''
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     data = {
         "chat_id": chat_id,
